@@ -1,0 +1,56 @@
+
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion{
+    
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('photo-1441986300917-64674bd600d8.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.Oferta{
+    background-color: #3e3e3e;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.Ofertas{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.tach {
+    text-decoration: line-through;
+    color: red;
+}
+
+.AD {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+
+
+}
+
+.separa {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
