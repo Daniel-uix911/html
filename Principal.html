@@ -8,17 +8,36 @@
 
     <title>Document</title>
 </head>
-<body>
+
     
-<header  >
+<header class="encabe" >
     <nav  class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         
-            <li><a href="Principal.html">UrbanStyle</a></li>
-            <li><a href="Registrar.html">Menu</a></li>
-            <li><a href="Consultar.html">Consultar</a></li>
-            <li><a href="#">Hombre</a></li>
-            <li><a href="#">Mujer</a></li>
-            <li><a href="#">Contacto</a></li>
+           <a href="Principal.html">UrbanStyle</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#oferta">Ofertas</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#contacto">Contacto</a>
+
+                </div>
+            </div>
+            
+           <div class="dropdown">
+                <button class="dropbtn">Hombre</button>
+                <div class="dropdown-content">
+                    <a href="/TodoH.html">Todo Hombre</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#contacto">Contacto</a>
+
+                </div>
+            </div>
+           
+
+            <a href="#">Mujer</a>
+           <a href="#contacto">Contacto</a>
         
         <hr>
     </nav>
@@ -36,83 +55,181 @@
 </section>
 
 
-<section class="Oferta">
-    <div>
-        <h1>Ofertas del Momento</h1>
-        <h2>¡No te pierdas nuestras ofertas exclusivas!</h2>
-    </div>
+<section id="oferta" class="Oferta" >
+        <div>
+            <h1>Ofertas del Momento</h1>
+            <h2>¡No te pierdas nuestras ofertas exclusivas!</h2>
+        </div>
 
-    <div class="Ofertas">
+            <div class="Ofertas">
 
-        <article class="Oferta1">
-            <div class="imagen">
-                <img src="Infantil-dk-LU11-130426-NM.webp" alt="Oferta 1" height="300" width="300">
-            
-                <div class="contenido">
-                    <h3>Poleron+</h3>
-                    <h3>Pantalón Buzo</h3>
-                    <p>Precio: $19.990</p>
-                </div>
-            </div>
-        </article>
-
-         <article class="Oferta">
-            <div class="imagen">
-                <img src="BH3-Chaquetas-w16-IR.webp" alt="Oferta 1" height="300" width="300" >
-
-                <div class="contenido">
-                    <h3>Chaquetas y Parkas</h3>
-                    <h3> 30% Descuento!!! </h3>
-                    <div class="separa">
-                    <p class="AD"> Antes:</p>   
-                    <p class="tach"> $35.990 </p>
+                <div class="galery">
+                    <div class="card">
+                        <article class="Oferta1">
+                            
+                                <img src="Infantil-dk-LU11-130426-NM.webp" alt="Oferta 1" height="300" width="280">
+                            
+                                <div class="contenido">
+                                    <h3>Poleron+</h3>
+                                    <h3>Pantalón Buzo</h3>
+                                    <p>Precio: $19.990</p>
+                                </div>
+                            
+                        </article>
                     </div>
-                    <div class="separa">
-                    <p class="AD"> Despues:</p>   
-                    <p > $24.500 </p>
                 </div>
+                <article class="Oferta1">
+                <div class="galery">
+                    <div class="card">
+                            <img src="BH3-Chaquetas-w16-IR.webp" alt="Oferta 1" height="300" width="285" >
+                            <div class="contenido">
+                            <h3>Chaquetas y Parkas</h3>
+                                <h3> 30% Descuento!!! </h3>
+                                <div class="separa">
+                                    <p class="AD"> Antes:</p>   
+                                    <p class="tach"> $35.990 </p>
+                                </div>
+                                <div class="separa">
+                                    <p class="AD"> Despues:</p>   
+                                    <p > $24.500 </p>
+                            </div>
+                    
+                        
+                </article>
+
+                <article class="Oferta1">
+                    <div class="galery">
+                        <div class="card">
+                        
+                                <img src="vestuario2.webp" alt="Oferta 1" height="300" width="285" >
+                                <div class="contenido">
+                                    <h3>Todo Vestido</h3>
+                                    <h3>De Verano 60% dcto </h3>
+                                    <br>
+                                    <br>
+
+                                </div>
+                        
+                        </div>
+                    </div>    
+
+                </article>
+
+
+
+
             </div>
-        </article>
-
-        <article class="Oferta1">
-            <div class="imagen">
-                <img src="vestuario2.webp" alt="Oferta 1" height="300" width="300" >
-                <div class="contenido">
-                    <h3>Todo Vestido</h3>
-                    <h3>De Verano 60% dcto </h3>
-                </div>
-            </div>
-        </article>
-
-
-
-
-    </div>
 
 </section>
 
 
-<section>
-
+<section id="galeria">
     <h1 class="titu">Galeria</h1>
 
-<div class="galery">
+    <div class="galery">
 
-    <div class="imagen2">
-        <div class="card" style="width:400px">
-    <img class="card-img-top" src="fugitivo-197.webp" alt="Card image">
-    <div class="card-body">
-        <h4 class="card-title">SOMBRERO DAGR</h4>
-        <p class="card-text">Precio: $29.990</p>
-        <a href="#" class="btn btn-primary">Ver Detalles</a>
+        <div class="card">
+            <img class="card-img-top" src="fugitivo-197.webp" alt="Sombrero">
+            <div class="card-body">
+                <h4 class="card-title">SOMBRERO DAGR</h4>
+                <hr>
+                <p class="card-text">Precio: $29.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="shopping.webp" alt="Polera">
+            <div class="card-body">
+                <h4 class="card-title">POLERA DAGR</h4>
+                <hr>
+                <p class="card-text">Precio: $29.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+          
+            <img class="card-img-top" src="full_image-2000397199804.webp" alt="Polera">
+            
+
+            <div class="card-body">
+                <h4 class="card-title">ZAPATILLAS NIKE</h4>
+                <hr>
+                <p class="card-text">Precio: $29.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+
+
+
+    
+
+        <div class="card">
+            <img class="card-img-top" src="1756103971bfb2c3a1abefa390139fefec2a6ee8b9_thumbnail_560x.webp" alt="Sombrero">
+            <div class="card-body">
+                <h4 class="card-title">PANTALON Black</h4>
+                <hr>
+                <p class="card-text">Precio: $14.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="17576481877eeb304fb9f00a388af47cd8fca01c61_thumbnail_560x.webp" alt="Polera">
+            <div class="card-body">
+                <h4 class="card-title">PANTALON suelto recto</h4>
+                <hr>
+                <p class="card-text">Precio: $19.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+          
+            <img class="card-img-top" src="dewey-34461f2a-a986-4980-8be6-68a2d8ec98e0_d61f6986-1202-4bf4-92ad-1d1f7924ada1.webp" alt="Polera">
+            
+
+            <div class="card-body">
+                <h4 class="card-title">POLERA Dewy</h4>
+                <hr>
+                <p class="card-text">Precio: $22.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+          
+            <img class="card-img-top" src="width=480,height=480,quality=70,format=webp,fit=pad.webp" alt="Polera">
+            
+
+            <div class="card-body">
+                <h4 class="card-title">POLERON + JEANS</h4>
+                <hr>
+                <p class="card-text">Precio: $34.990</p>
+                <a href="#" class="btn btn-primary">Ver Detalles</a>
+            </div>
+        </div>
+
+
+
+
     </div>
-    </div>
-
-</div>
 
 
 
-</div>
+
+
+
+</section>
+
+
+
+    
+
+
+
 
 
 
@@ -124,33 +241,23 @@
 
 
 
+<section id="contacto">
+    <section class="Contacto">
+        <div>
+            <h1>Contacto</h1>
+            <h2>¡Estamos aquí para ayudarte!</h2>
+            <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
+            <p>Teléfono: (123) 456-7890 | Correo: info@tienda.com | Dirección: Calle 123, Ciudad LOS ANGELES | Github: </p>
+            <a href="#contacto">Contáctanos</a>
+        </div>
 
 
 
 
 
-
-
-
-
-
-
-
-<section class="Contacto">
-    <div>
-        <h1>Contacto</h1>
-        <h2>¡Estamos aquí para ayudarte!</h2>
-        <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
-        <a href="#">Contáctanos</a>
-    </div>
-
-
-
-
+    </section>
 
 </section>
-
-
 
 </body>
 </html>
